@@ -1,11 +1,9 @@
 body {
-    padding: 0px;
     margin: 0px;
     background-color: white;
 }
 main {
-    height: 25%;
-    width: 100vh;
+    height: 25rem;
 }
 header {
     display: flex;
