@@ -1,11 +1,13 @@
 body {
     margin: 0px;
     background-color: rgb(192, 102, 102);
+    width: auto;
 }
+
 header {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: auto;
 }
 nav {
     background-color: rgb(0, 0, 0);
