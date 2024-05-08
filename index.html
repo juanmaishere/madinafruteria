@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Maina Fruteria</title>
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
     <header>
-    <div>
-        <p>Logo</p>
-    </div>
+        <div>
+            <img class="logo" src="images/logo.png" alt="Madinafruteria">
+        </div>
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
@@ -18,17 +19,36 @@
             <li>Contact</li>
         </ul>
     </nav>
+        <div>
+            <i class="fas fa-shopping-cart"></i>
+        </div>
 </header>
 
 
     <main>
-        <h1>Maina Fruteria</h1>
-            <p>Hace ya tus pedidos atravez de nuestra web</p>
-            <button>Pedi ya</button>
+        <div class="stack">
+            <div class="carousel">
+                <div class="slides">
+                    <img src="images/image1.jpg" alt="Slide 1">
+                    <img src="images/image2.jpg" alt="Slide 2">
+                    <img src="images/image3.jpg" alt="Slide 3">
+                </div>
+            </div>
+            <div class="text">
+                <h1>Maina Fruteria</h1>
+                    <p class="p1">Hace ya tus pedidos atravez de nuestra web</p>
+                    <button class="button">Pedi ya</button>
+            </div>
+        </div>
+        <div class="info">
+            <p>info</p>
+        </div>
     </main>
 
     <footer>
         <p>Maina Fruteria 2024</p>
+        <img class="socials" src="images/instagram.png" alt="instagram">
+        <img class="socials" src="images/whatsapp.png" alt="whatsapp">
     </footer>
 
     <script src="scripts/main.js"></script>
